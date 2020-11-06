@@ -6,10 +6,7 @@ Neste repositório você irá encontrar todos os exemplos utilizados nos treinam
 
 ### Recursos úteis
 
-* Instalação e configuração do Cloud Connect
-* Importação de dados do excel para o SQL Server
-* Tratamento dos campos e dados no SQL Server utilizando comando Update e alter table
-* Configuração do Agent através do arquivo my.properties (Definindo o modo de acesso ao banco de dados através do JDBC enviando as informações via ftp) 
+* Configuração do Agent através do arquivo config.properties (Definindo o modo de acesso ao banco de dados através do JDBC enviando as informações via ftp) 
 * Criação do modelo lógico de dados (construido datasets e tipando seus dados em atributos e de fatos)
 * Criação do relacionamento entre os datasets através de chaves primarias e estrangeiras
 * Criação do arquivo graph para o tratamento dos dados
@@ -27,17 +24,17 @@ Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
 ###  Acesse o curso no portal fluig Academy
 
 [GoodData](http://academy.fluig.com/ng/student/courses/gooddata/)
+[Desenvolvedor GoodData](https://academy.fluig.com/courses/desenvolvedor-gooddata)
 
 ### Observações
 
 No graph de Download, é necessário configurar o componente com os dados do seu projeto: 
   * Usuario
   * Senha
-  * id do projeto 
-  * nome do arquivo zip que foi enviado para o ftp
+  * ID do Projeto 
+  * Nome do arquivo zip que foi enviado para o FTP GoodData
 ------------------------------------------------------------------------------------------------------------------------------------
- * No arquivo my.properties do Agent é necessário substituir as tags do arquivo confome informado no treinamento. 
- * O arquivo run.exe é necessário editar e substituindo as tags informadas. 
+ * No arquivo config.properties do Agent é necessário substituir as tags do arquivo confome informado no treinamento. 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
